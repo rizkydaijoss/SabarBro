@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/AppTheme"
+
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:textAlignment="center"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:titleTextAppearance="@style/Toolbar.TitleText" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:layout_marginTop="70dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:text="Nama Restoran"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/txtnamarestoran"/>
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:textSize="16dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:ems="10"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/input_namarestoran"
+                    android:hint="(contoh: Meet Up Cafe)"
+
+
+                    />
+                <TextView
+                    android:text="Alamat"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtalamat"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="16dp"
+                    android:inputType="textMultiLine"
+                    android:ems="10"
+                    android:hint="(contoh: Jalan Hos Cokroaminoto, Kreo, Kota Tangerang, Banten)"
+                    android:id="@+id/input_alamat"
+
+                    />
+
+                <TextView
+                    android:text="Menu"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="fill_parent"
+                    android:textSize="16dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtmenu"
+                    />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:textSize="16dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/input_menu"
+                    android:layout_marginBottom="10dp"
+                    android:inputType="textMultiLine"
+                    android:ems="10"
+                    android:hint="(contoh: Ayam Bakar)"
+
+                    />
+                <TextView
+                    android:text="Harga Mulai Dari"
+                    android:textColor="@color/black"
+                    android:layout_width="fill_parent"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="16dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtharga"
+                    />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:inputType="textMultiLine"
+                    android:ems="10"
+                    android:hint="(contoh: 30.000)"
+                    android:id="@+id/input_harga"
+                    />
+                <TextView
+                    android:text="Fasilitas"
+                    android:textColor="@color/black"
+                    android:layout_width="fill_parent"
+                    android:textSize="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtfasilitas"
+                    />
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:textSize="16dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:inputType="textMultiLine"
+                    android:ems="10"
+                    android:hint="(contoh: Free WiFi)"
+                    android:id="@+id/input_fasilitas"
+
+                    />
+
+                <TextView
+                    android:text="No. HP"
+                    android:textColor="@color/black"
+                    android:layout_width="fill_parent"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="16dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txthp"
+                    />
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="16dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:ems="10"
+                    android:hint="(contoh: 087808062587)"
+                    android:id="@+id/input_hp"
+
+                    />
+
+                <TextView
+                    android:text="Latitude"
+                    android:textColor="@color/black"
+                    android:layout_width="fill_parent"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="16dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtlatitude"
+                    />
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="16dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:ems="10"
+                    android:hint="(contoh: -6.235064)"
+                    android:id="@+id/input_latitude"
+
+                    />
+
+                <TextView
+                    android:text="Longitude"
+                    android:textColor="@color/black"
+                    android:layout_width="fill_parent"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="16dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtlongitude"
+                    />
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="16dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:ems="10"
+                    android:hint="(contoh: 106.740530)"
+                    android:id="@+id/input_longitude"
+
+                    />
+
+                <Button
+                    android:id="@+id/btnSelectImage"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/upload"
+                    android:text="Pilih gambar"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginBottom="20dp" />
+                <TextView
+                    android:id="@+id/txtRealPath"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/upload"
+                    android:text="Path:"
+                    android:layout_marginBottom="20dp"  />
+
+                <Button android:id="@+id/btn_submit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="submit"
+                    android:background="@drawable/buttonedit"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@android:color/white"
+                    android:layout_marginBottom="110dp"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

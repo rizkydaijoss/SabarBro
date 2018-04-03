@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:paddingTop="20dp"
+    android:paddingLeft="10dp"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:text="Login Form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:src="@drawable/logo_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textColor="@color/white"
+        android:textColorHint="@color/yellow"
+        android:layout_gravity="center"
+        android:id="@+id/editTextUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <EditText
+        android:textColor="@color/white"
+        android:textColorHint="@color/yellow"
+        android:layout_gravity="center"
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <Button
+        android:theme="@style/MyButton"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:onClick="Register"
+        android:id="@+id/gotoRegister"
+        android:textColor="@color/white"
+        android:text="Belum punya akun? Silahkan Register"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

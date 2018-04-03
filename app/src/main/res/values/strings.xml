@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SabarBro</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="about">Program yang berisikan informasi seputar tempat nongkrong ataupun tempat kuliner yang cocok untuk Warga Kampus kunjungi. Program ini di pandu oleh Budi Intang, host yang tampan dan gokil ini, membuat Warga Kampus pasti penasaran oleh tempat-tempat yang telah di sambangi oleh ‘SABARBRO’. Dengan mengucap tagline ‘Kaco-kaco Goks’ berarti tempat yang telah dikunjungi ‘SABARBRO’ layak dan harus dikunjungi oleh Warga Kampus.\n\nDari tempat nongkrong yang terbilang biasa, sampai yang berkelas tersaji untuk rekomendasi Warga Kampus. Jadi Warga Kampus bisa melihat keseruan dari Budi Intang dan dapat rekomendasi baru untuk tempat nongkrong.</string>
+</resources>

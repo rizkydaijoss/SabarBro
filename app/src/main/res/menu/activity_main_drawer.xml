@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/nav_rekomendasi"
+            android:icon="@drawable/rekomendasi"
+            android:title="Rekomendasi" />
+        <!--<item
+            android:id="@+id/nav_tambah"
+            android:icon="@drawable/rekomendasi"
+            android:title="Tambah Restoran" />
+        <item
+            android:id="@+id/nav_restoranmysql"
+            android:icon="@drawable/rekomendasi"
+            android:title="Restoran MYSQL" />-->
+        <item
+            android:id="@+id/nav_listviewrestoranmysql"
+            android:icon="@drawable/rekomendasi"
+            android:title="Listview Restoran MYSQL" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/rekomendasi"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/exit"
+            android:title="Exit" />
+
+</menu>

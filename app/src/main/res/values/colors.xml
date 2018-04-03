@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#006e9b</color>
+    <color name="colorPrimaryDark">#006e9b</color>
+    <color name="accent">#ffffff</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="colorAccent">#e74c3c</color>
+    <color name="white">#ffffff</color>
+    <color name="bg_main">#006e9b</color>
+    <color name="black">#000000</color>
+    <color name="transparant">#00000000</color>
+    <color name="yellow">#ffff00</color>
+</resources>

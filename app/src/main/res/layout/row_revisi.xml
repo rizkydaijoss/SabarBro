@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="7dp" >
+
+    <TextView
+        android:id="@+id/nama_restoran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:padding="2dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/alamat_restoran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nama_restoran"
+        android:padding="2dp"
+        android:textSize="13dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/menu_restoran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alamat_restoran"
+        android:padding="2dp"
+        android:textSize="13dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/harga_restoran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menu_restoran"
+        android:padding="2dp"
+        android:textSize="13dp"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/fasilitas_restoran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/harga_restoran"
+        android:padding="2dp"
+        android:textSize="13dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/hp_restoran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fasilitas_restoran"
+        android:padding="2dp"
+        android:textSize="13dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/latitude_restoran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hp_restoran"
+        android:padding="2dp"
+        android:textSize="13dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/longitude_restoran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/latitude_restoran"
+        android:padding="2dp"
+        android:textSize="13dp"
+        android:textColor="@color/black"/>
+
+
+</LinearLayout>

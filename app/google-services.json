@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "688763634366",
+    "firebase_url": "https://sabarbro-b87f3.firebaseio.com",
+    "project_id": "sabarbro-b87f3",
+    "storage_bucket": "sabarbro-b87f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688763634366:android:6352b8751a14f1a7",
+        "android_client_info": {
+          "package_name": "kkp.sabarbro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688763634366-q2dbfs5pkvn515s0vns581cdls2c6s02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw9I9yubfcT0moO3E8VLYkZlHkZTNhqVA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
